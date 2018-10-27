@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Nunito:700|Roboto+Mono|Montserrat:400,600");
 html, body {
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
+  font-family: "Montserrat", "Verdana", "Helvetica", sans-serif;
   font-variant-ligatures: common-ligatures;
   line-height: 1.67;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100%;
   margin: 0;
-  font-size: 18px;
+  font-size: 110%; /* Generally 18px */
 }
 
 .content {
@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--title-background-color);
   padding: 0.8em;
   border-radius: 0 0.5rem 0.5rem 0;
+  font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
 }
 
 ::selection {
@@ -102,41 +103,46 @@ blockquote {
   box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26);
 }
 
-.navbar ul {
-  margin: 0;
+.navbar .container {
   display: flex;
   align-items: left;
-  padding: 0 0 0 1rem;
   max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.navbar li {
+.brand * {
+  padding: 0;
+  margin: 0;
+}
+
+.container li {
   float: left;
   display: block;
   color: var(--text-color);
-  padding: 0.2rem 0.2rem;
+  padding: 0.25rem 0.25rem;
   font-size: 1.5rem;
 }
 
-.navbar li .theme-indicator {
+.container li .theme-indicator {
   line-height: 1;
 }
 
-.navbar a {
+.container a {
   display: block;
   color: var(--text-color);
   cursor: pointer;
   padding: 0.75rem 0.75rem;
 }
 
-.navbar a:hover {
+.container a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
 }
 
-.navbar .theme-indicator {
+.container .theme-indicator {
   content: ' ';
   background: var(--background-color);
   border: 3px solid var(--title-border-color);
@@ -163,7 +169,7 @@ blockquote {
   margin-top: 1rem;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  /*padding: 0.5rem;*/
 }
 
 .dropdown-content a {
@@ -179,7 +185,8 @@ blockquote {
 }
 
 .show {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Dropdown menu end */
@@ -193,6 +200,7 @@ blockquote {
 /* Themes */
 
 /* Old theme system, now replaced by data-* attributes */
+
 /*
 :root {
   --navbar-color: #ffffff;

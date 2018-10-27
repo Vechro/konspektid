@@ -45,11 +45,6 @@ function setTheme(themeName) {
 }
 */
 
-// When the user clicks on the button, toggle between hiding and showing the dropdown content
-function showDropdownMenu() {
-  document.getElementById("navDropdown").classList.toggle("show");
-}
-
 const themeMenu = document.querySelector('#navDropdown');
 const savedTheme = localStorage.getItem('currentTheme');
 
@@ -76,6 +71,11 @@ function handleClick(event) {
 }
 
 themeMenu.addEventListener('click', handleClick);
+
+// When the user clicks on the button, toggle between hiding and showing the dropdown content
+function showDropdownMenu() {
+  document.getElementById("navDropdown").classList.toggle("show");
+}
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function (event) {

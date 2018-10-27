@@ -94,8 +94,8 @@ module.exports = {
   </head>
   <body>
     <div class="navbar">
-      <ul>
-        <li>
+      <div class="container">
+        <li class="brand">
           <a href="/">Konspektid</a>
         </li>
         <li>
@@ -119,7 +119,7 @@ module.exports = {
             </div>
           </div>
         </li>
-      </ul>
+      </div>
     </div>
     <div class="content">
       ${md.render(pageContent)}
