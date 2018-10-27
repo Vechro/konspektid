@@ -94,8 +94,6 @@ blockquote {
   max-width: 100%;
   /* background-color: rgba(0, 0, 0, 0.033); */
   background-color: var(--navbar-color);
-  /* Original value */
-  /* box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); */
   /* Bulma value */
   /* box-shadow: 0 2px 0 0 #f5f5f5 */
   /* Google.design value */
