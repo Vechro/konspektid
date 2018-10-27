@@ -233,7 +233,7 @@ html [data-theme="white-theme"], body [data-theme="white-theme"] {
 html [data-theme="solarized-theme"], body [data-theme="solarized-theme"] {
   --navbar-color: #eee8d5;
   --background-color: #fdf6e3;
-  --text-color: #586e75;
+  --text-color: #657b83;
   --title-background-color: #eee8d5;
   --title-border-color: #b58900;
   --highlight-color: #b589008f;
@@ -244,7 +244,7 @@ html [data-theme="dark-theme"], body [data-theme="dark-theme"] {
   --background-color: #222831;
   --text-color: #f9ffee;
   --title-background-color: #2a313a;
-  --title-border-color: #4d8a78;
+  --title-border-color: #cc9035;
   --highlight-color: #81f3d18f;
 }
 
@@ -253,7 +253,7 @@ html [data-theme="black-theme"], body [data-theme="black-theme"] {
   --background-color: #000000;
   --text-color: #f9ffee;
   --title-background-color: #101010;
-  --title-border-color: #4d8a78;
+  --title-border-color: #676899;
   --highlight-color: #81f3d18f;
 }
 
@@ -364,28 +364,3 @@ img {
 .abc-notation-block {
   overflow-x: auto !important;
 }
-
-/*
-.stackedit__toc ul {
-  padding: 0; }
-  .stackedit__toc ul a {
-    margin: 0.5rem 0;
-    padding: 0.5rem 1rem; }
-  .stackedit__toc ul ul {
-    color: #888;
-    font-size: 0.9em; }
-    .stackedit__toc ul ul a {
-      margin: 0;
-      padding: 0.1rem 1rem; }
-
-.stackedit__toc li {
-  display: block; }
-
-.stackedit__toc a {
-  display: block;
-  color: inherit;
-  text-decoration: none; }
-  .stackedit__toc a:active, .stackedit__toc a:focus, .stackedit__toc a:hover {
-    background-color: rgba(0, 0, 0, 0.075);
-    border-radius: 2px; }
-*/
