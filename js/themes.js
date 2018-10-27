@@ -79,7 +79,7 @@ function showDropdownMenu() {
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function (event) {
-  if (!(event.target.matches('.theme-indicator') || event.target.matches('.dropdown-content a'))) {
+  if (!event.target.matches('.theme-indicator')) {
 
     const dropdowns = document.getElementsByClassName("dropdown-content");
 
