@@ -245,16 +245,16 @@ html [data-theme="dark-theme"], body [data-theme="dark-theme"] {
   --text-color: #f9ffee;
   --title-background-color: #2a313a;
   --title-border-color: #cc9035;
-  --highlight-color: #81f3d18f;
+  --highlight-color: #cc90358f;
 }
 
 html [data-theme="black-theme"], body [data-theme="black-theme"] {
-  --navbar-color: #161616;
+  --navbar-color: #101010;
   --background-color: #000000;
   --text-color: #f9ffee;
   --title-background-color: #101010;
   --title-border-color: #676899;
-  --highlight-color: #81f3d18f;
+  --highlight-color: #6768998f;
 }
 
 /* === THEMES END === */
