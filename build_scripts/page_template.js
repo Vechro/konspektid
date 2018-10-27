@@ -34,7 +34,7 @@ fs.readdirSync(pageFolder).forEach(file => {
 });
 
 let indexContent = `
-<table>
+<table style="display: flex; flex-direction: column; align-items: center;">
   <thead>
     <tr>
       <th>
