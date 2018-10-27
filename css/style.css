@@ -38,6 +38,8 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--highlight-color);
 }
 
+/* Old dividers under titles */
+
 /*
 h1::after,
 h2::after {
@@ -98,7 +100,6 @@ blockquote {
   /* Google.design value */
   /* box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26); */
   box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26);
-
 }
 
 .navbar ul {
@@ -146,13 +147,6 @@ blockquote {
   vertical-align: middle;
 }
 
-.dropdown-content a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.5rem;
-}
-
 /* Navbar end */
 
 /* Dropdown menu for theme switcher */
@@ -178,6 +172,13 @@ blockquote {
   cursor: pointer;
 }
 
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
 .show {
   display: block;
 }
@@ -190,8 +191,9 @@ blockquote {
   transition: all 0.8s ease-out;
 }
 
-/* === THEMES === */
+/* Themes */
 
+/* Old theme system, now replaced by data-* attributes */
 /*
 :root {
   --navbar-color: #ffffff;
