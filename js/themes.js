@@ -84,7 +84,7 @@ document.querySelector('.dropdown-button').addEventListener('mouseover',
 */
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function (event) {
-  if (!event.target.matches('.theme-indicator')) {
+  if (!event.target.matches('.theme-indicator') && !event.target.matches('.dropdown-button')) {
 
     const dropdowns = document.getElementsByClassName("dropdown-content");
 

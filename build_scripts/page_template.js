@@ -105,16 +105,16 @@ module.exports = {
             </a>
             <div id="navDropdown" class="dropdown-content">
               <a data-theme="white-theme">
-                <span data-theme="white-theme" class="white-theme theme-indicator"></span>
+                <span data-theme="white-theme" class="white-theme theme-indicator-dropdown"></span>
               </a>
               <a data-theme="solarized-theme">
-                <span data-theme="solarized-theme" class="solarized-theme theme-indicator"></span>
+                <span data-theme="solarized-theme" class="solarized-theme theme-indicator-dropdown"></span>
               </a>
               <a data-theme="dark-theme">
-                <span data-theme="dark-theme" class="dark-theme theme-indicator"></span>
+                <span data-theme="dark-theme" class="dark-theme theme-indicator-dropdown"></span>
               </a>
               <a data-theme="black-theme">
-                <span data-theme="black-theme" class="black-theme theme-indicator"></span>
+                <span data-theme="black-theme" class="black-theme theme-indicator-dropdown"></span>
               </a>
             </div>
           </div>

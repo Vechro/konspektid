@@ -134,7 +134,18 @@ blockquote {
   border-radius: 0.5rem;
 }
 
-.container .theme-indicator {
+.theme-indicator {
+  content: ' ';
+  background: var(--background-color);
+  border: 3px solid var(--title-border-color);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.theme-indicator-dropdown {
   content: ' ';
   background: var(--background-color);
   border: 3px solid var(--title-border-color);
