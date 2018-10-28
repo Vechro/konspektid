@@ -100,7 +100,7 @@ module.exports = {
         </li>
         <li>
           <div class="dropdown">
-            <a onclick="showDropdownMenu()">
+            <a class="dropdown-button">
               <span class="theme-indicator"></span>
             </a>
             <div id="navDropdown" class="dropdown-content">
