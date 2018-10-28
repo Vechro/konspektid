@@ -122,10 +122,6 @@ blockquote {
   font-size: 1.5rem;
 }
 
-.container li .theme-indicator {
-  line-height: 1;
-}
-
 .container a {
   display: block;
   color: var(--text-color);
@@ -163,9 +159,10 @@ blockquote {
   position: absolute;
   background-color: var(--navbar-color);
   margin-top: 1rem;
+  right: -6px;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
-  /*padding: 0.5rem;*/
+  padding: 0.25em;
 }
 
 .dropdown-content a {
