@@ -8,7 +8,6 @@ const md = require('markdown-it')({
   .use(require('markdown-it-footnote'))
   .use(require('markdown-it-imsize'))
   .use(require('markdown-it-mark'))
-  /*
   .use(require('markdown-it-anchor'), {
     level: 2,
     // slugify: string => string,
@@ -18,7 +17,6 @@ const md = require('markdown-it')({
     permalinkSymbol: '#',
     permalinkBefore: true
   })
-  */
   ;
 
 const pageFolder = './pages/';

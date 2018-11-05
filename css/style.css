@@ -25,7 +25,18 @@ p, blockquote, pre, ul, ol, dl {
   margin: 1.2em 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  margin: 1.8em 0;
+  line-height: 1.33;
+  border-left: solid 5px var(--title-border-color);
+  border-bottom: solid 5px var(--title-border-color);
+  background-color: var(--title-background-color);
+  padding: 0.8em;
+  border-radius: 0 0.5rem 0 0;
+  font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
   margin: 1.8em 0;
   line-height: 1.33;
   border-left: solid 5px var(--title-border-color);
@@ -33,6 +44,21 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.8em;
   border-radius: 0 0.5rem 0.5rem 0;
   font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
+}
+
+/*
+h2:hover::before, h3:hover::before, h4:hover::before, h5:hover::before, h6:hover::before {
+  content: "# ";
+  color: blue;
+}
+*/
+
+.header-anchor {
+  display: none;
+}
+
+h2:hover>.header-anchor, h3:hover>.header-anchor, h4:hover>.header-anchor, h5:hover>.header-anchor, h6:hover>.header-anchor {
+  display: initial;
 }
 
 ::selection {
