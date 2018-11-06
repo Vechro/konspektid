@@ -15,7 +15,7 @@ const md = require('markdown-it')({
     // renderPermalink: (slug, opts, state, permalink) => {},
     permalinkClass: 'header-anchor',
     permalinkSymbol: '#',
-    permalinkBefore: true
+    permalinkBefore: false
   })
   ;
 
@@ -51,13 +51,13 @@ module.exports = {
     return`<!DOCTYPE html>
 <html lang="${pageMeta.lang || this.defaultMeta.lang}">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126074023-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126074023-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-126074023-1');
+      gtag('config', 'UA-126074023-2');
     </script>
     
     <title>${pageMeta.title || this.defaultMeta.title}</title>

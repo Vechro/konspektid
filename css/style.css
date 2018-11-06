@@ -54,11 +54,25 @@ h2:hover::before, h3:hover::before, h4:hover::before, h5:hover::before, h6:hover
 */
 
 .header-anchor {
-  display: none;
+  /*display: none;*/
+  transition: all 0.33s ease 0.33s;
+  pointer-events: none;
+  color: #0c93e400;
+  user-select: none;
 }
 
+/*
+h1 .header-anchor {
+  pointer-events: none;
+  color: #0c93e400;
+}
+*/
+
 h2:hover>.header-anchor, h3:hover>.header-anchor, h4:hover>.header-anchor, h5:hover>.header-anchor, h6:hover>.header-anchor {
-  display: initial;
+  /*display: initial;*/
+  transition: all 0.33s ease 0.33s;
+  pointer-events: auto;
+  color: #0c93e4;
 }
 
 ::selection {
@@ -374,6 +388,7 @@ img {
   max-width: 100%;
 }
 
+/*
 .task-list-item {
   list-style-type: none;
 }
@@ -396,3 +411,4 @@ img {
 .abc-notation-block {
   overflow-x: auto !important;
 }
+*/
