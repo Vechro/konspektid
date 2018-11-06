@@ -46,32 +46,13 @@ h2, h3, h4, h5, h6 {
   font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
 }
 
-/*
-h2:hover::before, h3:hover::before, h4:hover::before, h5:hover::before, h6:hover::before {
-  content: "# ";
-  color: blue;
-}
-*/
-
 .header-anchor {
-  /*display: none;*/
-  transition: all 0.33s ease 0.33s;
-  pointer-events: none;
+  transition: 0.33s 0.25s;
   color: #0c93e400;
   user-select: none;
 }
 
-/*
-h1 .header-anchor {
-  pointer-events: none;
-  color: #0c93e400;
-}
-*/
-
 h2:hover>.header-anchor, h3:hover>.header-anchor, h4:hover>.header-anchor, h5:hover>.header-anchor, h6:hover>.header-anchor {
-  /*display: initial;*/
-  transition: all 0.33s ease 0.33s;
-  pointer-events: auto;
   color: #0c93e4;
 }
 
