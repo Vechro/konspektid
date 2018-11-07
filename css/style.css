@@ -42,7 +42,7 @@ h1 {
 
 .header-anchor {
   transition: 0.33s 0.25s;
-  color: #0c93e400;
+  color: rgba(12, 147, 228, 0);
   user-select: none;
 }
 
@@ -245,10 +245,10 @@ blockquote {
 html [data-theme="white-theme"], body [data-theme="white-theme"] {
   --navbar-color: #ffffff;
   --background-color: #ffffff;
-  --text-color: #000000cc;
+  --text-color: rgba(0, 0, 0, 0.8);
   --title-background-color: #f5f5f5;
   --title-border-color: #4d8a78;
-  --highlight-color: #81f3d18f;
+  --highlight-color: rgba(129, 243, 209, 0.561);
 }
 
 html [data-theme="solarized-theme"], body [data-theme="solarized-theme"] {
@@ -257,7 +257,7 @@ html [data-theme="solarized-theme"], body [data-theme="solarized-theme"] {
   --text-color: #657b83;
   --title-background-color: #eee8d5;
   --title-border-color: #b58900;
-  --highlight-color: #b589008f;
+  --highlight-color: rgba(181, 137, 0, 0.561);
 }
 
 html [data-theme="dark-theme"], body [data-theme="dark-theme"] {
@@ -266,7 +266,7 @@ html [data-theme="dark-theme"], body [data-theme="dark-theme"] {
   --text-color: #f9ffee;
   --title-background-color: #2a313a;
   --title-border-color: #cc9035;
-  --highlight-color: #cc90358f;
+  --highlight-color: rgba(204, 144, 53, 0.561);
 }
 
 html [data-theme="black-theme"], body [data-theme="black-theme"] {
@@ -275,7 +275,7 @@ html [data-theme="black-theme"], body [data-theme="black-theme"] {
   --text-color: #f9ffee;
   --title-background-color: #101010;
   --title-border-color: #676899;
-  --highlight-color: #6768998f;
+  --highlight-color: rgba(103, 104, 153, 0.561);
 }
 
 /* === THEMES END === */
