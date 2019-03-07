@@ -75,9 +75,9 @@ module.exports = {
     }
     <meta name="description" content="${pageMeta.description || this.defaultMeta.description}">
 
-    <meta http-equiv=“Pragma” content=”no-cache”>
-    <meta http-equiv=“Expires” content=”-1″>
-    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 
     <meta name="theme-color" content="#4d8a78">
 
@@ -126,9 +126,9 @@ module.exports = {
     ${
       pageMeta.hasOwnProperty('scripts')
         ? pageMeta.scripts.length
-          ? pageMeta.scripts.map(value => `<script src="${value}"></script>`)
+          ? pageMeta.scripts.map(value => `<script async src="${value}"></script>`)
           : ''
-        : this.defaultMeta.scripts.map(value => `<script src="${value}"></script>`)
+        : this.defaultMeta.scripts.map(value => `<script async src="${value}"></script>`)
     }
   </body>
 </html>

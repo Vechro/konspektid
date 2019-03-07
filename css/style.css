@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.8em;
   border-radius: 0 0.5rem 0.5rem 0;
   font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26);
 }
 
 h1 {
