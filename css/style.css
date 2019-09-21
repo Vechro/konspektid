@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:700|Roboto+Mono|Montserrat:400,600");
+/* @import url("https://fonts.googleapis.com/css?family=Nunito:700|Roboto+Mono|Montserrat:400,600"); */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Montserrat:400,600,700");
 html, body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -28,17 +29,19 @@ p, blockquote, pre, ul, ol, dl {
 h1, h2, h3, h4, h5, h6 {
   margin: 1.8em 0;
   line-height: 1.33;
-  border-left: solid 5px var(--title-border-color);
+  /*border-left: solid 5px var(--title-border-color);*/
   background-color: var(--title-background-color);
   padding: 0.8em;
-  border-radius: 0 0.5rem 0.5rem 0;
-  font-family: "Nunito", "Verdana", "Helvetica", sans-serif;
-  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26);
+  /*border-radius: 0 0.5rem 0.5rem 0;*/
+  border-radius: 0.5rem;
+  /* font-family: "Nunito", "Verdana", "Helvetica", sans-serif; */
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.25);
+  /*border: solid 2px rgba(0, 0, 0, 0.15);*/
 }
 
 h1 {
-  border-bottom: solid 5px var(--title-border-color);
-  border-radius: 0 0.5rem 0 0;
+  /*border-bottom: solid 5px var(--title-border-color);*/
+  border-radius: 0.5rem;
 }
 
 .header-anchor {
@@ -111,10 +114,10 @@ blockquote {
   /* background-color: rgba(0, 0, 0, 0.033); */
   background-color: var(--navbar-color);
   /* Bulma value */
-  /* box-shadow: 0 2px 0 0 #f5f5f5 */
+   box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.13)
   /* Google.design value */
   /* box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26); */
-  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26);
+  /*box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, .26);*/
 }
 
 .navbar .container {
@@ -246,8 +249,8 @@ blockquote {
 html [data-theme="white-theme"], body [data-theme="white-theme"] {
   --navbar-color: #ffffff;
   --background-color: #ffffff;
-  --text-color: rgba(0, 0, 0, 0.8);
-  --title-background-color: #f5f5f5;
+  --text-color: rgba(0, 0, 0, 0.85);
+  --title-background-color: #ffffff;
   --title-border-color: #4d8a78;
   --highlight-color: rgba(129, 243, 209, 0.561);
 }
@@ -274,7 +277,7 @@ html [data-theme="black-theme"], body [data-theme="black-theme"] {
   --navbar-color: #101010;
   --background-color: #000000;
   --text-color: #f9ffee;
-  --title-background-color: #101010;
+  --title-background-color: #000000;
   --title-border-color: #676899;
   --highlight-color: rgba(103, 104, 153, 0.561);
 }
