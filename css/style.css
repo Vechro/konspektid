@@ -248,7 +248,7 @@ blockquote {
 
 html [data-theme="white-theme"], body [data-theme="white-theme"] {
   --navbar-color: #ffffff;
-  --background-color: #ffffff;
+  --background-color: #f6fafd;
   --text-color: rgba(0, 0, 0, 0.85);
   --title-background-color: #ffffff;
   --title-border-color: #4d8a78;
