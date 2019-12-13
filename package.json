@@ -23,6 +23,6 @@
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-mark": "^2.0.0",
     "nodemon": "^1.19.2",
-    "npm": "^6.11.3"
+    "npm": "^6.13.4"
   }
 }
